@@ -1,0 +1,24 @@
+{
+  "name": "order-tracking-expressjs-middleware",
+  "version": "1.0.0",
+  "description": "Pluggable middleware for adding order tracking requests to a fb-like bot backend",
+  "main": "app.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "keywords": [
+    "express",
+    "fb",
+    "messenger",
+    "order",
+    "tracking",
+    "ups"
+  ],
+  "author": "Nick Balkissoon",
+  "license": "ISC",
+  "dependencies": {
+    "request": "^2.72.0",
+    "mocha": "3.4.2",
+    "chai": "3.5.0"
+  }
+}
